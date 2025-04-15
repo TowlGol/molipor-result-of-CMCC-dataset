@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+ position 0 0 41.39129639
+ orientation 1 0 0 0
+ description "Z view"
+ fieldOfView 0.481470
+}
+DirectionalLight {
+ direction -0.348155 -0.348155   -0.870
+}
+NavigationInfo {
+ headlight TRUE
+ type "EXAMINE"
+}
+Transform {
+ translation -1.971689 -0.518603 -0.319450
+ children Shape {
+  geometry Sphere { radius 2.720000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation -0.832161 -0.269415 -0.032364
+ children Shape {
+  geometry Sphere { radius 2.340000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation -1.592909 -0.354797 -0.318138
+ children Shape {
+  geometry Sphere { radius 2.800000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}

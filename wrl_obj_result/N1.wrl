@@ -1,0 +1,70 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+ position 0 0 123.75511932
+ orientation 1 0 0 0
+ description "Z view"
+ fieldOfView 0.481470
+}
+DirectionalLight {
+ direction -0.348155 -0.348155   -0.870
+}
+NavigationInfo {
+ headlight TRUE
+ type "EXAMINE"
+}
+Transform {
+ translation 3.685785 2.226305 -2.334328
+ children Shape {
+  geometry Sphere { radius 1.880000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation -4.062187 1.511086 -2.261292
+ children Shape {
+  geometry Sphere { radius 1.880000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation -0.015284 0.386235 2.205246
+ children Shape {
+  geometry Sphere { radius 2.960000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation 0.423913 -4.737352 -1.133904
+ children Shape {
+  geometry Sphere { radius 1.880000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
+Transform {
+ translation 0.003018 -0.070668 -0.399918
+ children Shape {
+  geometry Sphere { radius 3.960000 }
+  appearance Appearance {
+   material Material { diffuseColor 0.6510 0.6510 0.6706 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+  }
+ }
+}
