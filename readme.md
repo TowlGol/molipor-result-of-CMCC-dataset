@@ -22,7 +22,7 @@ This project preserves and compares the cavity calculation results between Molip
      show spheres
      ```
 
-     Before: <img src="./image/A1_origin.png" alt="" width="300" title="">      After:<img src="./image/A1.png" alt="" width="300" title="">
+     Before: <img src="./Image/A1_origin.png" alt="" width="300" title="">      After:<img src="./Image/A1.png" alt="" width="300" title="">
    - PDB → WRL conversion (result stored in `wrl_obj_result`)
    - Volume calculation using MeshLab
 
@@ -33,7 +33,7 @@ For the large F2 molecule:
 
 - Used Blender for:
   - Mesh completion  
-  Before: <img src="./image/F2_before.png" alt="" width="200" title="">      Aftet:<img src="./image/F2_after.png" alt="" width="200" title="">
+  Before: <img src="./Image/F2_Before.png" alt="" width="200" title="">      Aftet:<img src="./Image/F2_After.png" alt="" width="200" title="">
   - Volume calculation
 
 ## Directory Structure
