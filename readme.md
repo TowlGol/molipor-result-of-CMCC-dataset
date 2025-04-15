@@ -22,7 +22,7 @@ This project preserves and compares the cavity calculation results between Molip
      show spheres
      ```
 
-     Before: <img src="./image/A1_origin.png" alt="" width="300" title="">      Aftet:<img src="./image/A1.png" alt="" width="300" title="">
+     Before: <img src="./image/A1_origin.png" alt="" width="300" title="">      After:<img src="./image/A1.png" alt="" width="300" title="">
    - PDB → WRL conversion (result stored in `wrl_obj_result`)
    - Volume calculation using MeshLab
 
