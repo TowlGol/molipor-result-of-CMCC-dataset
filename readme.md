@@ -53,5 +53,4 @@ project_root/
 ## References
 
 Original Molipor paper:  
-J. Chem. Theory Comput. 2019, 15, 787−798.  
-DOI: [10.1021/acs.jctc.8b00764](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00764)
+[1]García I G, Bernabei M, Haranczyk M. Toward automated tools for characterization of molecular porosity[J]. Journal of Chemical Theory and Computation, 2018, 15(1): 787-798.
