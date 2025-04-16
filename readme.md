@@ -15,26 +15,19 @@ This project preserves and compares the cavity calculation results between Molip
 
 3. **Volume Calculation**:
    - VTK → PDB conversion using `convert_vtk2pdb.py` (results in `Cavity_pdb_result`)
+   - For each interior Voronoi point, we calculate the maximum atomic radius that does not collide with the supramolecular cage and store it in the PDB file.
+   - Volume calculation using `Volume.py`(Volume.py calculates the volume in grid-based mode. In the experiment, the mesh size is 0.2Å)
+
+4. **Result Visualization**
    - PyMOL processing:  
      ```pymol
      alter all, vdw = b
      rebuild
      show spheres
      ```
-
      Before: <img src="./Image/A1_origin.png" alt="" width="300" title="">      After:<img src="./Image/A1.png" alt="" width="300" title="">
-   - PDB → WRL conversion (result stored in `wrl_obj_result`)
-   - Volume calculation using MeshLab
 
-## Special Case Handling
 
-For the large F2 molecule:
-- WRL files had unclosed triangles
-
-- Used Blender for:
-  - Mesh completion  
-  Before: <img src="./Image/F2_Before.png" alt="" width="200" title="">      Aftet:<img src="./Image/F2_After.png" alt="" width="200" title="">
-  - Volume calculation
 
 ## Directory Structure
 project_root/  
