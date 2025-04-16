@@ -46,8 +46,6 @@ project_root/
 ## Requirements
 
 - [PyMOL](https://pymol.org/)
-- [MeshLab](https://www.meshlab.net/)
-- [Blender](https://www.blender.org/) (for F2 special case)
 - Python environment for script execution
 
 ## References
