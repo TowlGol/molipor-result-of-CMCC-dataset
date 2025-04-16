@@ -15,7 +15,8 @@ This project preserves and compares the cavity calculation results between Molip
 
 3. **Volume Calculation**:
    - VTK → PDB conversion using `convert_vtk2pdb.py` (results in `Cavity_pdb_result`)
-   - For each interior Voronoi point, we calculate the maximum atomic radius that does not collide with the supramolecular cage and store it in the PDB file.
+   - For each interior Voronoi point, we calculate the maximum atomic radius that does not collide with the supramolecular cage and store it in the PDB file.  
+      Before: <img src="./Image/A1_origin.png" alt="" width="200" title="">       After:<img src="./Image/A1.png" alt="" width="200" title="">
    - Volume calculation using `Volume.py`(Volume.py calculates the volume in grid-based mode. In the experiment, the mesh size is 0.2Å)
 
 4. **Result Visualization**
@@ -25,7 +26,6 @@ This project preserves and compares the cavity calculation results between Molip
      rebuild
      show spheres
      ```
-     Before: <img src="./Image/A1_origin.png" alt="" width="300" title="">      After:<img src="./Image/A1.png" alt="" width="300" title="">
 
 
 
