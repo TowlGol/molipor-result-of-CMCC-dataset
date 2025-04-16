@@ -20,6 +20,7 @@ This project preserves and compares the cavity calculation results between Molip
    - Volume calculation using `Volume.py`(Volume.py calculates the volume in grid-based mode. In the experiment, the mesh size is 0.2Å)
 
 4. **Result Visualization**
+   - Import "*_voronoi_spheres.pdb" to Pymol.
    - PyMOL processing:  
      ```pymol
      alter all, vdw = b
